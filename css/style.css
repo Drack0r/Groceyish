@@ -1,0 +1,95 @@
+/*----------------------------------------------
+Reset
+----------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+menu,
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*----------------------------------------------
+Global
+----------------------------------------------*/
+html,
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  background: #e5e5e5;
+}
+
+.page {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+/*----------------------------------------------
+Typography
+----------------------------------------------*/
+html {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #253d4e;
+}
+
+/*----------------------------------------------
+Header
+----------------------------------------------*/
+.header {
+  position: relative;
+  height: 150px;
+  width: 100%;
+}
+
+.header__topbar {
+  border: 1px dashed black;
+  height: 78px;
+  padding: 0 8.33%;
+  display: flex;
+  align-items: center;
+}
+
+.topbar__logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__img {
+  display: block;
+  height: 39px;
+  width: 39px;
+}
+
+.logo__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo__title {
+  font-size: 1.3125rem;
+  font-weight: 700;
+  color: #3bb77e;
+}
+
+.logo__subtitle {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #adadad;
+}
+
+/*# sourceMappingURL=style.css.map */

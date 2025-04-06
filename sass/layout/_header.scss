@@ -1,0 +1,50 @@
+/*----------------------------------------------
+Header
+----------------------------------------------*/
+
+@use "../utils/variables" as *;
+@use "../utils/mixins" as *;
+
+.header {
+  position: relative;
+  height: 150px;
+  width: 100%;
+}
+
+.header__topbar {
+  border: 1px dashed black;
+  height: 78px;
+  padding: 0 8.33%;
+  display: flex;
+  align-items: center;
+}
+
+.topbar__logo {
+  // border: 1px dashed black;
+  display: flex;
+  align-items: center;
+}
+
+.logo__img {
+  display: block;
+  height: 39px;
+  width: 39px;
+}
+
+.logo__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo__title {
+  font-size: 1.3125rem;
+  font-weight: 700;
+  color: $base-green;
+}
+
+.logo__subtitle {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: $grey;
+}
